@@ -72,7 +72,7 @@ int main() {
             camera.target.x += ((player.x) - camera.target.x) * 0.005;
             camera.target.y += ((player.y) - camera.target.y) * 0.005;
         }
-
+        // PERICLEEEEEEEEEES
         dprev = camd;
 
         BeginDrawing();
