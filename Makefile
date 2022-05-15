@@ -24,13 +24,13 @@
 .PHONY: all clean
 
 # Define required raylib variables
-PROJECT_NAME       ?= GameName 
+PROJECT_NAME       ?= MarcoxBills
 RAYLIB_VERSION     ?= 3.8.0
-## @TODO: Mude aqui para o caminho de onde está o raylib
-RAYLIB_PATH        ?= PASTA RAYLIB
+## @TODO: Mude aqui para o caminho de onde estÃ¡ o raylib
+RAYLIB_PATH        ?= C:/raylib/raylib/src
 
 # Define compiler path on Windows
-COMPILER_PATH      ?= C:/raylib/mingw/bin
+COMPILER_PATH      ?= C:/raylib/w64devkit/bin
 
 # Define default options
 # One of PLATFORM_DESKTOP, PLATFORM_RPI, PLATFORM_ANDROID, PLATFORM_WEB
